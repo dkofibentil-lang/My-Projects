@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Form</title>
+</head>
+
+<body>
+    <h2>Working with <i>Form Shell</i> and <i>form Controls</i></h2>
+    <form action="" method="GET">
+        <label for="studID">STUDENT ID:</label>
+        <input type="text" name="studID" id="studID" required minlength="7" maxlength="8"
+            placeholder="Enter your Student ID" />
+        <br>
+        <br>
+        <label for="fname">FIRST NAME:</label>
+        <input type="text" name="fname" id="fname" required placeholder="Enter your First Name" />
+        <br>
+        <br>
+        <label for="oname">OTHER NAMES:</label>
+        <input type="text" name="oname" id="oname" placeholder="Enter your Other Names" />
+        <br>
+        <br>
+        <label for="sname">SURNAME:</label>
+        <input type="text" name="sname" id="sname" required placeholder="Enter your Surname" />
+        <br>
+        <br>
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" required name="dob" id="dob" max="2026-11-10" min="1966-11-10" />
+        <br>
+        <br>
+        <label for="emAdd">E-MAIL</label>
+        <input type="email" name="emAdd" id="emAdd" required placeholder="Enter E-mail like: yourname@domain.com" />
+        <br>
+        <br>
+        <fieldset>
+            <legend>GENDER</legend>
+            <input type="radio" name="gender" id="mgender" value="MALE">
+            <label for="mgender">Male</label>
+            <br>
+            <input type="radio" name="gender" id="fgender" value="FEMALE">
+            <label for="fgender">Female</label>
+        </fieldset>
+        <br>
+        <label for="religion">RELIGION:</label>
+        <select name="religion" id="religion">
+            <option value="CHRISTIAN">Christian</option>
+            <option value="MUSLIM">Muslim</option>
+            <option value="BUDDHIST">Buddhist</option>
+            <option value="TRADITIONALIST">Traditionalist</option>
+            <option value="OTHERS">Others</option>
+        </select>
+        <br>
+        <br>
+        <label for="level">LEVEL:</label>
+        <select name="level" id="level">
+            <option value="LEVEL 100">level 100</option>
+            <option value="LEVEL 200">level 200</option>
+            <option value="LEVEL 300">level 300</option>
+            <option value="LEVEL 400">level 400</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>LANGUAGES SPOKEN</legend>
+            <input type="checkbox" name="lanSpkn" id="eng" value="ENGLISH"><label for="eng">English</label>
+            <br>
+            <input type="checkbox" name="lanSpkn" id="french" value="FRENCH"><label for="french">French</label>
+            <br>
+            <input type="checkbox" name="lanSpkn" id="german" value="GERMAN"><label for="german">German</label>
+            <br>
+            <input type="checkbox" name="lanSpkn" id="ga" value="GA"><label for="ga">Ga</label>
+            <br>
+            <input type="checkbox" name="lanSpkn" id="twi" value="TWI"><label for="twi">Twi</label>
+            <br>
+            <input type="checkbox" name="lanSpkn" id="spanish" value="SPANISH"><label for="spanish">Spanish</label>
+        </fieldset>
+        <br>
+        <input type="submit">&nbsp;&nbsp;<input type="reset">
+    </form>
+    <hr />
+    <p>
+        <a href="index.html">Home</a>&nbsp;||&nbsp;<a href="list.html">List</a>&nbsp;||&nbsp;<a
+            href="image.html">Image</a>&nbsp;||&nbsp;<a href="media.html">Media</a>&nbsp;||&nbsp;<a
+            href="tables.html">Tables</a>
+    </p>
+
+</body>
