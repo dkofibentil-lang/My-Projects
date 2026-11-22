@@ -11,37 +11,37 @@
         <label for="studID">STUDENT ID:</label>
         <input type="text" name="studID" id="studID" required minlength="7" maxlength="8"
             placeholder="Enter your Student ID" />
-        <br>
-        <br>
+        <br />
+        <br />
         <label for="fname">FIRST NAME:</label>
         <input type="text" name="fname" id="fname" required placeholder="Enter your First Name" />
-        <br>
-        <br>
+        <br />
+        <br />
         <label for="oname">OTHER NAMES:</label>
         <input type="text" name="oname" id="oname" placeholder="Enter your Other Names" />
-        <br>
-        <br>
+        <br />
+        <br />
         <label for="sname">SURNAME:</label>
         <input type="text" name="sname" id="sname" required placeholder="Enter your Surname" />
-        <br>
-        <br>
+        <br />
+        <br />
         <label for="dob">DATE OF BIRTH:</label>
-        <input type="date" required name="dob" id="dob" max="2026-11-10" min="1966-11-10" />
-        <br>
-        <br>
-        <label for="emAdd">E-MAIL</label>
+        <input type="date" required name="dob" id="dob" max="2026-11-20" min="1966-11-10" />
+        <br />
+        <br />
+        <label for="emAdd">E-MAIL:</label>
         <input type="email" name="emAdd" id="emAdd" required placeholder="Enter E-mail like: yourname@domain.com" />
-        <br>
-        <br>
+        <br />
+        <br />
         <fieldset>
             <legend>GENDER</legend>
-            <input type="radio" name="gender" id="mgender" value="MALE">
+            <input type="radio" name="gender" id="mgender" value="MALE" />
             <label for="mgender">Male</label>
             <br>
-            <input type="radio" name="gender" id="fgender" value="FEMALE">
+            <input type="radio" name="gender" id="fgender" value="FEMALE" />
             <label for="fgender">Female</label>
         </fieldset>
-        <br>
+        <br />
         <label for="religion">RELIGION:</label>
         <select name="religion" id="religion">
             <option value="CHRISTIAN">Christian</option>
@@ -50,8 +50,8 @@
             <option value="TRADITIONALIST">Traditionalist</option>
             <option value="OTHERS">Others</option>
         </select>
-        <br>
-        <br>
+        <br />
+        <br />
         <label for="level">LEVEL:</label>
         <select name="level" id="level">
             <option value="LEVEL 100">level 100</option>
@@ -59,30 +59,58 @@
             <option value="LEVEL 300">level 300</option>
             <option value="LEVEL 400">level 400</option>
         </select>
-        <br>
-        <br>
+        <br />
+        <br />
         <fieldset>
             <legend>LANGUAGES SPOKEN</legend>
-            <input type="checkbox" name="lanSpkn" id="eng" value="ENGLISH"><label for="eng">English</label>
-            <br>
-            <input type="checkbox" name="lanSpkn" id="french" value="FRENCH"><label for="french">French</label>
-            <br>
-            <input type="checkbox" name="lanSpkn" id="german" value="GERMAN"><label for="german">German</label>
-            <br>
-            <input type="checkbox" name="lanSpkn" id="ga" value="GA"><label for="ga">Ga</label>
-            <br>
-            <input type="checkbox" name="lanSpkn" id="twi" value="TWI"><label for="twi">Twi</label>
-            <br>
-            <input type="checkbox" name="lanSpkn" id="spanish" value="SPANISH"><label for="spanish">Spanish</label>
+            <input type="checkbox" name="lanSpkn" id="eng" value="ENGLISH" /><label for="eng">English</label>
+            <br />
+            <input type="checkbox" name="lanSpkn" id="french" value="FRENCH" /><label for="french">French</label>
+            <br />
+            <input type="checkbox" name="lanSpkn" id="german" value="GERMAN" /><label for="german">German</label>
+            <br />
+            <input type="checkbox" name="lanSpkn" id="ga" value="GA" /><label for="ga">Ga</label>
+            <br />
+            <input type="checkbox" name="lanSpkn" id="twi" value="TWI" /><label for="twi">Twi</label>
+            <br />
+            <input type="checkbox" name="lanSpkn" id="spanish" value="SPANISH" /><label for="spanish">Spanish</label>
         </fieldset>
-        <br>
-        <input type="submit">&nbsp;&nbsp;<input type="reset">
+        <br />
+        <label for="numSib">NUMBER OF SIBLINGS:</label>
+        <input type="number" name="numSib" id="numSib" min="0" step="1" />
+        <br />
+        <br />
+        <label for="wgt">WEIGHT:</label>
+        <input type="number" name="wgt" id="wgt" min="0" step="0.02" />
+        <br />
+        <br />
+        <label for="fColor">FAVOURITE COLOUR:</label>
+        <input type="color" name="fColor" id="fColor" />
+        <br />
+        <br />
+        <label for="result">WASSCE RESULT:</label>
+        <input type="file" name="result" id="result" accept=".pdf,.jpg,.jpeg">
+        <br />
+        <br />
+        <label for="com">COMMENTS:</label>
+        <textarea name="com" id="com" rows="12" cols="50"></textarea>
+        <br />
+        <br />
+        <label for="scode">SECRET CODE:</label>
+        <input type="password" name="scode" id="scode" />
+        <br />
+        <br />
+        <label for=""></label>
+        <br />
+        <button type="submit" name="cmdEnter">Enter</button>&nbsp;&nbsp;<button type="reset">Clear Form</button>
     </form>
     <hr />
     <p>
         <a href="index.html">Home</a>&nbsp;||&nbsp;<a href="list.html">List</a>&nbsp;||&nbsp;<a
             href="image.html">Image</a>&nbsp;||&nbsp;<a href="media.html">Media</a>&nbsp;||&nbsp;<a
-            href="tables.html">Tables</a>
+            href="tables.html">Tables</a>&nbsp;||&nbsp;<a href="layout.html">Layout</a>
     </p>
 
 </body>
+
+</html>
